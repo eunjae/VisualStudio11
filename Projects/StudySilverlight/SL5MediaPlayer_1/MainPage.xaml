@@ -1,0 +1,20 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" x:Class="SL5MediaPlayer_1.MainPage"
+    mc:Ignorable="d"
+    d:DesignHeight="420" d:DesignWidth="640">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <MediaElement x:Name="MediaElement1" HorizontalAlignment="Left" Height="360" VerticalAlignment="Top" Width="640" Source="rtsp://128.134.65.183:8554/"/>
+        <Button Content="Play" HorizontalAlignment="Left" Margin="10,388,0,10" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="Pause" HorizontalAlignment="Left" Margin="90,388,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Margin="170,388,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+
+        <sdk:Label x:Name="Label1" HorizontalAlignment="Left" Margin="0,365,0,0" VerticalAlignment="Top" Height="18" Width="640" Content=""/>
+        <Button Content="Mute on" HorizontalAlignment="Left" Margin="250,388,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Ex-GetPin">
+      <UniqueIdentifier>{24a2d8d3-6c0a-4a37-bbc1-33a4ae3acc76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ex-AddFilters">
+      <UniqueIdentifier>{6f229919-9a7b-49aa-aece-0e514bff9c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ex-FFAndRew">
+      <UniqueIdentifier>{d6559085-3b20-40d3-a725-2e73245ebfab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ex-ConnectFilters">
+      <UniqueIdentifier>{30f65fde-a364-4bd6-80db-306262456826}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddFilters.cpp">
+      <Filter>Source Files\Ex-AddFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="FFAndRew.cpp">
+      <Filter>Source Files\Ex-FFAndRew</Filter>
+    </ClCompile>
+    <ClCompile Include="GetPin.cpp">
+      <Filter>Source Files\Ex-GetPin</Filter>
+    </ClCompile>
+    <ClCompile Include="Ex-ConnectFilters.cpp">
+      <Filter>Source Files\Ex-ConnectFilters</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlFilters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ControlFilters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
